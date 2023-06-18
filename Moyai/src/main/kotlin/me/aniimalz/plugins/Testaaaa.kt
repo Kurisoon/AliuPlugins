@@ -41,7 +41,7 @@ class Moyai : Plugin() {
             val message = Message(this)
             val content = message.content.lowercase()
             if (message.channelId != StoreStream.getChannelsSelected().id) return@subscribe
-            if (content.contains("🗿") || content.contains("vine boom")) funny()
+            if (content.contains("👹") || content.contains("RAAAAH")) funny()
         }
 
     }
